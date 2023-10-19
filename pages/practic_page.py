@@ -33,7 +33,9 @@ class PracticPage(BasePage):
     def click_submit(self):
         self.click(self.practic_locators.submit_btn)
 
-    def login(self):
-        self.set_text(self.locators.login_field, "login")
-        self.set_text(self.locators.password_field, "password")
-        self.click(self.locators.login_btn)
+
+
+    # def login(self):
+    #     self.set_text(self.locators.login_field, "login")
+    #     self.set_text(self.locators.password_field, "password")
+    #     self.click(self.locators.login_btn)

@@ -1,4 +1,13 @@
+from selene.support.jquery_style_selectors import s
 from selenium.webdriver.common.by import By
+
+
+
+class Login_page_locators:
+    field_login = s("//input[@name = 'login']")
+    field_password = s("//input[@name = 'password']")
+
+
 
 
 class PracticPageLocators:
